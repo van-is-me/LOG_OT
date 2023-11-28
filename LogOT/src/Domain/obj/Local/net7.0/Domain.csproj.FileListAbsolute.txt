@@ -1,0 +1,12 @@
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\bin\Local\net7.0\mentor_v1.Domain.deps.json
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\bin\Local\net7.0\mentor_v1.Domain.dll
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\bin\Local\net7.0\mentor_v1.Domain.pdb
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\Domain.csproj.AssemblyReference.cache
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\Domain.AssemblyInfoInputs.cache
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\Domain.AssemblyInfo.cs
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\mentor_v1.Domain.dll
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\refint\mentor_v1.Domain.dll
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\mentor_v1.Domain.pdb
+D:\workSpace\Ki7\SWD392\LogOT\src\Domain\obj\Local\net7.0\ref\mentor_v1.Domain.dll

@@ -1,0 +1,1690 @@
+2023-07-13 23:34:04.079 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-13 23:34:05.295 +07:00 [INF] User profile is available. Using 'C:\Users\VAN NGUYEN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-13 23:34:07.063 +07:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-07-13 23:34:07.067 +07:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-07-13 23:34:08.476 +07:00 [DBG] The property 'Colour.TodoListId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-13 23:34:09.837 +07:00 [DBG] Entity Framework Core 7.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: MigrationsAssembly=mentor_v1.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-13 23:34:09.861 +07:00 [DBG] Creating DbConnection.
+2023-07-13 23:34:10.309 +07:00 [DBG] Created DbConnection. (442ms).
+2023-07-13 23:34:10.316 +07:00 [DBG] Migrating using database 'HRM' on server '(local)'.
+2023-07-13 23:34:10.338 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:11.999 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.014 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-13 23:34:12.028 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2023-07-13 23:34:12.033 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (19ms).
+2023-07-13 23:34:12.049 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-13 23:34:12.115 +07:00 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-13 23:34:12.124 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.141 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (11ms).
+2023-07-13 23:34:12.151 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-13 23:34:12.153 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-07-13 23:34:12.155 +07:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (4ms).
+2023-07-13 23:34:12.158 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.162 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.165 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-13 23:34:12.217 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-13 23:34:12.221 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.223 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (2ms).
+2023-07-13 23:34:12.229 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.232 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.234 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-13 23:34:12.236 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2023-07-13 23:34:12.239 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2023-07-13 23:34:12.246 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-13 23:34:12.252 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-13 23:34:12.257 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.259 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (2ms).
+2023-07-13 23:34:12.264 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-13 23:34:12.266 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-13 23:34:12.268 +07:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (4ms).
+2023-07-13 23:34:12.270 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.273 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.276 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-13 23:34:12.283 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-13 23:34:12.286 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.288 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (2ms).
+2023-07-13 23:34:12.321 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-13 23:34:12.324 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-13 23:34:12.326 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2023-07-13 23:34:12.329 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.331 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.334 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-13 23:34:12.366 +07:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-13 23:34:12.385 +07:00 [DBG] Closing data reader to 'HRM' on server '(local)'.
+2023-07-13 23:34:12.389 +07:00 [DBG] A data reader for 'HRM' on server '(local)' is being disposed after spending 16ms reading results.
+2023-07-13 23:34:12.393 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:12.396 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (3ms).
+2023-07-13 23:34:12.421 +07:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-13 23:34:12.579 +07:00 [DBG] Compiling query expression: 
+'DbSet<IdentityRole>()
+    .All(r => r.Name != __managerRole_Name_0)'
+2023-07-13 23:34:12.990 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT NOT EXISTS (
+            SELECT 1
+            FROM AspNetRoles AS a
+            WHERE Not(a.Name != @__managerRole_Name_0))), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    mentor_v1.Infrastructure.Persistence.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2023-07-13 23:34:13.073 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-13 23:34:13.076 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-13 23:34:13.084 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (11ms).
+2023-07-13 23:34:13.088 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.092 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.101 +07:00 [DBG] Executing DbCommand [Parameters=[@__managerRole_Name_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__managerRole_Name_0 AND ([a].[Name] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.218 +07:00 [INF] Executed DbCommand (121ms) [Parameters=[@__managerRole_Name_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__managerRole_Name_0 AND ([a].[Name] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.227 +07:00 [DBG] Closing data reader to 'HRM' on server '(local)'.
+2023-07-13 23:34:13.230 +07:00 [DBG] A data reader for 'HRM' on server '(local)' is being disposed after spending 8ms reading results.
+2023-07-13 23:34:13.234 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.238 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (3ms).
+2023-07-13 23:34:13.244 +07:00 [DBG] Compiling query expression: 
+'DbSet<IdentityRole>()
+    .All(r => r.Name != __staffRole_Name_0)'
+2023-07-13 23:34:13.251 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT NOT EXISTS (
+            SELECT 1
+            FROM AspNetRoles AS a
+            WHERE Not(a.Name != @__staffRole_Name_0))), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    mentor_v1.Infrastructure.Persistence.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2023-07-13 23:34:13.256 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-13 23:34:13.258 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-13 23:34:13.261 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2023-07-13 23:34:13.264 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.267 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.269 +07:00 [DBG] Executing DbCommand [Parameters=[@__staffRole_Name_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__staffRole_Name_0 AND ([a].[Name] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.277 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__staffRole_Name_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__staffRole_Name_0 AND ([a].[Name] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.283 +07:00 [DBG] Closing data reader to 'HRM' on server '(local)'.
+2023-07-13 23:34:13.285 +07:00 [DBG] A data reader for 'HRM' on server '(local)' is being disposed after spending 2ms reading results.
+2023-07-13 23:34:13.299 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.302 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (2ms).
+2023-07-13 23:34:13.306 +07:00 [DBG] Compiling query expression: 
+'DbSet<IdentityRole>()
+    .All(r => r.Name != __employeeRole_Name_0)'
+2023-07-13 23:34:13.312 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT NOT EXISTS (
+            SELECT 1
+            FROM AspNetRoles AS a
+            WHERE Not(a.Name != @__employeeRole_Name_0))), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    mentor_v1.Infrastructure.Persistence.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2023-07-13 23:34:13.315 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-13 23:34:13.317 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-07-13 23:34:13.319 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2023-07-13 23:34:13.321 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.324 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.329 +07:00 [DBG] Executing DbCommand [Parameters=[@__employeeRole_Name_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__employeeRole_Name_0 AND ([a].[Name] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.336 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__employeeRole_Name_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__employeeRole_Name_0 AND ([a].[Name] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.340 +07:00 [DBG] Closing data reader to 'HRM' on server '(local)'.
+2023-07-13 23:34:13.344 +07:00 [DBG] A data reader for 'HRM' on server '(local)' is being disposed after spending 4ms reading results.
+2023-07-13 23:34:13.346 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.350 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (3ms).
+2023-07-13 23:34:13.356 +07:00 [DBG] Compiling query expression: 
+'DbSet<ApplicationUser>()
+    .All(u => u.UserName != __administrator_UserName_0)'
+2023-07-13 23:34:13.365 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT NOT EXISTS (
+            SELECT 1
+            FROM AspNetUsers AS a
+            WHERE Not(a.UserName != @__administrator_UserName_0))), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    mentor_v1.Infrastructure.Persistence.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2023-07-13 23:34:13.368 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-13 23:34:13.370 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-07-13 23:34:13.375 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2023-07-13 23:34:13.377 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.380 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.382 +07:00 [DBG] Executing DbCommand [Parameters=[@__administrator_UserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @__administrator_UserName_0 AND ([a].[UserName] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.397 +07:00 [INF] Executed DbCommand (15ms) [Parameters=[@__administrator_UserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @__administrator_UserName_0 AND ([a].[UserName] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.401 +07:00 [DBG] Closing data reader to 'HRM' on server '(local)'.
+2023-07-13 23:34:13.403 +07:00 [DBG] A data reader for 'HRM' on server '(local)' is being disposed after spending 2ms reading results.
+2023-07-13 23:34:13.406 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.409 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (2ms).
+2023-07-13 23:34:13.412 +07:00 [DBG] Compiling query expression: 
+'DbSet<ApplicationUser>()
+    .All(u => u.UserName != __staff_UserName_0)'
+2023-07-13 23:34:13.416 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT NOT EXISTS (
+            SELECT 1
+            FROM AspNetUsers AS a
+            WHERE Not(a.UserName != @__staff_UserName_0))), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    mentor_v1.Infrastructure.Persistence.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2023-07-13 23:34:13.420 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-13 23:34:13.422 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-13 23:34:13.424 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2023-07-13 23:34:13.427 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.429 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.432 +07:00 [DBG] Executing DbCommand [Parameters=[@__staff_UserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @__staff_UserName_0 AND ([a].[UserName] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.440 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__staff_UserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN NOT EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @__staff_UserName_0 AND ([a].[UserName] IS NOT NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-13 23:34:13.447 +07:00 [DBG] Closing data reader to 'HRM' on server '(local)'.
+2023-07-13 23:34:13.450 +07:00 [DBG] A data reader for 'HRM' on server '(local)' is being disposed after spending 2ms reading results.
+2023-07-13 23:34:13.454 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.457 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (2ms).
+2023-07-13 23:34:13.471 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2023-07-13 23:34:13.476 +07:00 [DBG] Disposing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:34:13.481 +07:00 [DBG] Disposed connection to database '' on server '' (5ms).
+2023-07-13 23:34:13.972 +07:00 [INF] Start installing Hangfire SQL objects...
+2023-07-13 23:34:25.975 +07:00 [INF] Hangfire SQL objects installed.
+2023-07-13 23:34:26.464 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Error.cshtml'.
+2023-07-13 23:34:26.468 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_LoginPartial.cshtml'.
+2023-07-13 23:34:26.470 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2023-07-13 23:34:26.472 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/NToastNotify/Default.cshtml'.
+2023-07-13 23:34:26.475 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/AccessDenied.cshtml'.
+2023-07-13 23:34:26.478 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmail.cshtml'.
+2023-07-13 23:34:26.480 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml'.
+2023-07-13 23:34:26.483 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ExternalLogin.cshtml'.
+2023-07-13 23:34:26.485 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPassword.cshtml'.
+2023-07-13 23:34:26.487 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml'.
+2023-07-13 23:34:26.490 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Lockout.cshtml'.
+2023-07-13 23:34:26.492 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Login.cshtml'.
+2023-07-13 23:34:26.494 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWith2fa.cshtml'.
+2023-07-13 23:34:26.496 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml'.
+2023-07-13 23:34:26.499 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Logout.cshtml'.
+2023-07-13 23:34:26.501 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml'.
+2023-07-13 23:34:26.503 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml'.
+2023-07-13 23:34:26.505 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml'.
+2023-07-13 23:34:26.507 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml'.
+2023-07-13 23:34:26.509 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Email.cshtml'.
+2023-07-13 23:34:26.511 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml'.
+2023-07-13 23:34:26.515 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml'.
+2023-07-13 23:34:26.517 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml'.
+2023-07-13 23:34:26.520 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Index.cshtml'.
+2023-07-13 23:34:26.522 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml'.
+2023-07-13 23:34:26.524 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml'.
+2023-07-13 23:34:26.526 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml'.
+2023-07-13 23:34:26.529 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml'.
+2023-07-13 23:34:26.532 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml'.
+2023-07-13 23:34:26.533 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_Layout.cshtml'.
+2023-07-13 23:34:26.537 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml'.
+2023-07-13 23:34:26.539 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml'.
+2023-07-13 23:34:26.540 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml'.
+2023-07-13 23:34:26.542 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml'.
+2023-07-13 23:34:26.544 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Register.cshtml'.
+2023-07-13 23:34:26.555 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml'.
+2023-07-13 23:34:26.557 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml'.
+2023-07-13 23:34:26.559 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPassword.cshtml'.
+2023-07-13 23:34:26.561 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml'.
+2023-07-13 23:34:26.564 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_StatusMessage.cshtml'.
+2023-07-13 23:34:26.566 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_ViewImports.cshtml'.
+2023-07-13 23:34:26.568 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Error.cshtml'.
+2023-07-13 23:34:26.571 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_Layout.cshtml'.
+2023-07-13 23:34:26.573 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml'.
+2023-07-13 23:34:26.574 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewImports.cshtml'.
+2023-07-13 23:34:26.576 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewStart.cshtml'.
+2023-07-13 23:34:26.614 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-13 23:34:28.968 +07:00 [DBG] Hosting starting
+2023-07-13 23:34:28.993 +07:00 [DBG] Reading data from file 'C:\Users\VAN NGUYEN\AppData\Local\ASP.NET\DataProtection-Keys\key-7c2f51ca-3f79-4a6f-ba7f-d2e632c528b3.xml'.
+2023-07-13 23:34:29.034 +07:00 [DBG] Reading data from file 'C:\Users\VAN NGUYEN\AppData\Local\ASP.NET\DataProtection-Keys\key-bba16f3b-d02f-4c50-8e83-b4cc0ae7d545.xml'.
+2023-07-13 23:34:29.066 +07:00 [DBG] Found key {7c2f51ca-3f79-4a6f-ba7f-d2e632c528b3}.
+2023-07-13 23:34:29.078 +07:00 [DBG] Found key {bba16f3b-d02f-4c50-8e83-b4cc0ae7d545}.
+2023-07-13 23:34:29.091 +07:00 [DBG] Considering key {bba16f3b-d02f-4c50-8e83-b4cc0ae7d545} with expiration date 2023-10-09 06:01:11Z as default key.
+2023-07-13 23:34:29.098 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-13 23:34:29.101 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-13 23:34:29.105 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-13 23:34:29.110 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-13 23:34:29.113 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-13 23:34:29.118 +07:00 [DBG] Using key {bba16f3b-d02f-4c50-8e83-b4cc0ae7d545} as the default key.
+2023-07-13 23:34:29.121 +07:00 [DBG] Key ring with default key {bba16f3b-d02f-4c50-8e83-b4cc0ae7d545} was loaded during application startup.
+2023-07-13 23:34:29.471 +07:00 [INF] Now listening on: https://localhost:5001
+2023-07-13 23:34:29.473 +07:00 [INF] Now listening on: http://localhost:5000
+2023-07-13 23:34:29.476 +07:00 [DBG] Loaded hosting startup assembly WebUI
+2023-07-13 23:34:29.478 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-13 23:34:29.480 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-13 23:34:29.498 +07:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: testHangfire.mssql.somee.com@testHangfire'
+2023-07-13 23:34:29.504 +07:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2023-07-13 23:34:29.506 +07:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2023-07-13 23:34:29.514 +07:00 [DBG] Connection id "0HMS3NS3S1QCG" accepted.
+2023-07-13 23:34:29.521 +07:00 [DBG] Connection id "0HMS3NS3S1QCG" started.
+2023-07-13 23:34:29.525 +07:00 [DBG] Connection id "0HMS3NS3S1QCG" received FIN.
+2023-07-13 23:34:29.532 +07:00 [DBG] Execution loop BackgroundServerProcess:aeea7ec6 has started in 8.7806 ms
+2023-07-13 23:34:29.548 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-13 23:34:29.570 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 is announcing itself...
+2023-07-13 23:34:29.570 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-13 23:34:29.703 +07:00 [INF] Hosting environment: Development
+2023-07-13 23:34:29.705 +07:00 [INF] Content root path: D:\workSpace\Ki7\SWD392\LogOT\src\WebUI
+2023-07-13 23:34:29.705 +07:00 [DBG] Connection id "0HMS3NS3S1QCG" stopped.
+2023-07-13 23:34:29.707 +07:00 [DBG] Hosting started
+2023-07-13 23:34:29.713 +07:00 [DBG] Connection id "0HMS3NS3S1QCG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-13 23:34:30.163 +07:00 [DBG] Connection id "0HMS3NS3S1QCH" accepted.
+2023-07-13 23:34:30.169 +07:00 [DBG] Connection id "0HMS3NS3S1QCH" started.
+2023-07-13 23:34:30.339 +07:00 [DBG] Connection 0HMS3NS3S1QCH established using the following protocol: "Tls13"
+2023-07-13 23:34:30.440 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2023-07-13 23:34:30.450 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-07-13 23:34:30.455 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "SETTINGS" frame for stream ID 0 with length 30 and flags "NONE".
+2023-07-13 23:34:30.460 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2023-07-13 23:34:30.470 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-07-13 23:34:30.474 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "HEADERS" frame for stream ID 1 with length 639 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:34:30.519 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2023-07-13 23:34:30.590 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2023-07-13 23:34:30.628 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-13 23:34:30.630 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:34:30.639 +07:00 [DBG] The request path /swagger does not match a supported file type
+2023-07-13 23:34:30.686 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "HEADERS" frame for stream ID 1 with length 69 and flags "END_STREAM, END_HEADERS".
+2023-07-13 23:34:30.686 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 97.1779ms
+2023-07-13 23:34:30.704 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "HEADERS" frame for stream ID 3 with length 40 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:34:30.715 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-13 23:34:30.719 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:34:30.723 +07:00 [DBG] The request path /swagger/index.html does not match an existing file
+2023-07-13 23:34:30.873 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-13 23:34:30.876 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "HEADERS" frame for stream ID 3 with length 28 and flags "END_HEADERS".
+2023-07-13 23:34:30.951 +07:00 [INF] Server desktop-fco8jeh:11416:7e098533 successfully announced in 1251.6643 ms
+2023-07-13 23:34:30.959 +07:00 [DBG] Execution loop ServerHeartbeatProcess:e0774493 has started in 4.2965 ms
+2023-07-13 23:34:30.961 +07:00 [INF] Server desktop-fco8jeh:11416:7e098533 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2023-07-13 23:34:30.968 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:34:30.971 +07:00 [DBG] Execution loop ServerWatchdog:09299047 has started in 3.4441 ms
+2023-07-13 23:34:30.987 +07:00 [DBG] Execution loop ServerJobCancellationWatcher:eed8616f has started in 12.7563 ms
+2023-07-13 23:34:30.998 +07:00 [DBG] Execution loop ExpirationManager:70d428b2 has started in 8.3021 ms
+2023-07-13 23:34:30.999 +07:00 [DBG] Execution loop CountersAggregator:a4775654 has started in 0.5965 ms
+2023-07-13 23:34:31.000 +07:00 [DBG] Execution loop SqlServerHeartbeatProcess:42645bbe has started in 1.5163 ms
+2023-07-13 23:34:31.001 +07:00 [DBG] Execution loop Worker:795e2884 has started in 0.9738 ms
+2023-07-13 23:34:31.002 +07:00 [DBG] Execution loop Worker:76c0012e has started in 1.3941 ms
+2023-07-13 23:34:31.002 +07:00 [DBG] Execution loop Worker:e72030c5 has started in 1.9125 ms
+2023-07-13 23:34:31.006 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:34:31.008 +07:00 [DBG] Execution loop Worker:8984dba7 has started in 7.1646 ms
+2023-07-13 23:34:31.008 +07:00 [DBG] Execution loop Worker:c33dad11 has started in 7.5715 ms
+2023-07-13 23:34:31.008 +07:00 [DBG] Execution loop Worker:72d07792 has started in 7.8806 ms
+2023-07-13 23:34:31.009 +07:00 [DBG] Execution loop Worker:2b013631 has started in 8.2668 ms
+2023-07-13 23:34:31.009 +07:00 [DBG] Execution loop Worker:7dad3cac has started in 8.5801 ms
+2023-07-13 23:34:31.009 +07:00 [DBG] Execution loop Worker:2cb3378b has started in 8.8336 ms
+2023-07-13 23:34:31.010 +07:00 [DBG] Execution loop Worker:5cd031bf has started in 9.1707 ms
+2023-07-13 23:34:31.010 +07:00 [DBG] Execution loop Worker:88235528 has started in 9.5808 ms
+2023-07-13 23:34:31.010 +07:00 [DBG] Execution loop Worker:64bab2f3 has started in 9.8035 ms
+2023-07-13 23:34:31.011 +07:00 [DBG] Execution loop Worker:cdf29c53 has started in 10.0963 ms
+2023-07-13 23:34:31.011 +07:00 [DBG] Execution loop Worker:c6127cfa has started in 10.7026 ms
+2023-07-13 23:34:31.013 +07:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2023-07-13 23:34:31.013 +07:00 [DBG] Execution loop Worker:de5c8e75 has started in 12.8304 ms
+2023-07-13 23:34:31.014 +07:00 [DBG] Execution loop Worker:a5416c54 has started in 13.2014 ms
+2023-07-13 23:34:31.014 +07:00 [DBG] Execution loop Worker:9d87bbc3 has started in 13.5107 ms
+2023-07-13 23:34:31.014 +07:00 [DBG] Execution loop Worker:ae07e4ad has started in 13.7398 ms
+2023-07-13 23:34:31.015 +07:00 [DBG] Execution loop Worker:1c6b6622 has started in 14.0851 ms
+2023-07-13 23:34:31.015 +07:00 [DBG] Aggregating records in 'Counter' table...
+2023-07-13 23:34:31.015 +07:00 [DBG] Execution loop Worker:08912513 has started in 14.6284 ms
+2023-07-13 23:34:31.016 +07:00 [DBG] Execution loop DelayedJobScheduler:e7d22f9d has started in 0.38 ms
+2023-07-13 23:34:31.017 +07:00 [DBG] Execution loop RecurringJobScheduler:1857faf5 has started in 1.189 ms
+2023-07-13 23:34:31.017 +07:00 [INF] Server desktop-fco8jeh:11416:7e098533 all the dispatchers started
+2023-07-13 23:34:31.031 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:34:31.195 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 3 with length 1024 and flags "NONE".
+2023-07-13 23:34:31.202 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 3 with length 3072 and flags "NONE".
+2023-07-13 23:34:31.214 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "HEADERS" frame for stream ID 5 with length 110 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:34:31.219 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 3 with length 1084 and flags "NONE".
+2023-07-13 23:34:31.226 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-13 23:34:31.238 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "HEADERS" frame for stream ID 7 with length 56 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:34:31.238 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2023-07-13 23:34:31.245 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 529.7811ms
+2023-07-13 23:34:31.246 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2023-07-13 23:34:31.253 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "HEADERS" frame for stream ID 9 with length 54 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:34:31.253 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2023-07-13 23:34:31.267 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:34:31.267 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2023-07-13 23:34:31.267 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "HEADERS" frame for stream ID 11 with length 55 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:34:31.255 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:34:31.271 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:34:31.274 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 23:34:31.276 +07:00 [DBG] The request path /swagger/swagger-ui-bundle.js does not match an existing file
+2023-07-13 23:34:31.276 +07:00 [DBG] The request path /swagger/swagger-ui.css does not match an existing file
+2023-07-13 23:34:31.277 +07:00 [DBG] The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+2023-07-13 23:34:31.284 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "HEADERS" frame for stream ID 11 with length 90 and flags "END_HEADERS".
+2023-07-13 23:34:31.290 +07:00 [VRB] Range header's value is empty.
+2023-07-13 23:34:31.290 +07:00 [VRB] Range header's value is empty.
+2023-07-13 23:34:31.290 +07:00 [VRB] Range header's value is empty.
+2023-07-13 23:34:31.307 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 11 with length 11980 and flags "NONE".
+2023-07-13 23:34:31.325 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "HEADERS" frame for stream ID 7 with length 87 and flags "END_HEADERS".
+2023-07-13 23:34:31.327 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 52.1092ms
+2023-07-13 23:34:31.331 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.340 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.345 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.350 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.355 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "HEADERS" frame for stream ID 9 with length 34 and flags "END_HEADERS".
+2023-07-13 23:34:31.360 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.368 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.372 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.376 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.382 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "HEADERS" frame for stream ID 5 with length 43 and flags "END_HEADERS".
+2023-07-13 23:34:31.392 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.396 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.401 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.406 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.411 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 11 with length 0 and flags "END_STREAM".
+2023-07-13 23:34:31.419 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.424 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.428 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.433 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.442 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.457 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.462 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.469 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.474 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.478 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.485 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.489 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.492 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.504 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.508 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.513 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.518 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.523 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.528 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.538 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.543 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 13857 and flags "NONE".
+2023-07-13 23:34:31.552 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.556 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-07-13 23:34:31.558 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.561 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 144929 text/css 322.1587ms
+2023-07-13 23:34:31.565 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.573 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.582 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.589 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.593 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.597 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.604 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2023-07-13 23:34:31.610 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.617 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "HEADERS" frame for stream ID 13 with length 37 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:34:31.625 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.630 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-13 23:34:31.638 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.642 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.657 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.666 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.672 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.676 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 867 and flags "NONE".
+2023-07-13 23:34:31.682 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.683 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-07-13 23:34:31.689 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.692 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 425.0818ms
+2023-07-13 23:34:31.696 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.705 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.711 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 9 with length 0 and flags "END_STREAM".
+2023-07-13 23:34:31.724 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.731 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.735 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.739 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.743 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "HEADERS" frame for stream ID 13 with length 119 and flags "END_HEADERS".
+2023-07-13 23:34:31.752 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 9986 and flags "NONE".
+2023-07-13 23:34:31.757 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.761 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.766 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.773 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.778 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:31.793 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.798 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.805 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.809 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.813 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:31.822 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.826 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.831 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.838 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.842 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:31.854 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.858 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.863 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.870 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.874 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:31.882 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.888 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.891 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.897 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.905 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:31.910 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.918 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.923 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.927 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.937 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:31.960 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.968 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.975 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.983 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:31.992 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:31.999 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:32.009 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:32.015 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:32.024 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:32.031 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.040 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:32.044 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:32.053 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:32.057 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-07-13 23:34:32.062 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.071 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 12960 and flags "NONE".
+2023-07-13 23:34:32.074 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.074 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-07-13 23:34:32.080 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.084 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 830.2368ms
+2023-07-13 23:34:32.088 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2023-07-13 23:34:32.092 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.098 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.106 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.112 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.119 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.123 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.128 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.133 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.137 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.157 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.165 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.174 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.189 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.193 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.203 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.214 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.227 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.241 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.259 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.290 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.323 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.391 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.410 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.425 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.460 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.473 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.483 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.488 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.494 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.503 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.510 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.521 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.527 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.542 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.548 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.554 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.558 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.564 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.574 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.579 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.588 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.597 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.618 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.622 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.644 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.660 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.668 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.674 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.682 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.698 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.717 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.910 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.921 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.939 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.947 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.961 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.972 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.980 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.991 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:32.996 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:33.008 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 10240 and flags "NONE".
+2023-07-13 23:34:33.014 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 9517 and flags "NONE".
+2023-07-13 23:34:33.023 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 13 with length 0 and flags "END_STREAM".
+2023-07-13 23:34:33.023 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1393.0805ms
+2023-07-13 23:34:33.200 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" received "HEADERS" frame for stream ID 15 with length 70 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:34:33.211 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-13 23:34:33.213 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:34:33.219 +07:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2023-07-13 23:34:33.781 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "HEADERS" frame for stream ID 15 with length 65 and flags "END_HEADERS".
+2023-07-13 23:34:33.790 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 15 with length 16384 and flags "NONE".
+2023-07-13 23:34:33.812 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 15 with length 16384 and flags "NONE".
+2023-07-13 23:34:33.823 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 15 with length 16384 and flags "NONE".
+2023-07-13 23:34:33.827 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 15 with length 16384 and flags "NONE".
+2023-07-13 23:34:33.834 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 15 with length 16384 and flags "NONE".
+2023-07-13 23:34:33.842 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 15 with length 13875 and flags "NONE".
+2023-07-13 23:34:33.859 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 648.7055ms
+2023-07-13 23:34:33.859 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "DATA" frame for stream ID 15 with length 0 and flags "END_STREAM".
+2023-07-13 23:34:36.138 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:34:36.140 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:34:41.153 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:34:41.155 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:34:43.243 +07:00 [VRB] Records from the 'Counter' table aggregated.
+2023-07-13 23:34:44.796 +07:00 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2023-07-13 23:34:44.797 +07:00 [DBG] Removing outdated records from the 'Job' table...
+2023-07-13 23:34:46.172 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:34:46.174 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:34:48.809 +07:00 [VRB] Outdated records removed from the 'Job' table.
+2023-07-13 23:34:48.810 +07:00 [DBG] Removing outdated records from the 'List' table...
+2023-07-13 23:34:51.191 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:34:51.194 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:34:51.908 +07:00 [VRB] Outdated records removed from the 'List' table.
+2023-07-13 23:34:51.910 +07:00 [DBG] Removing outdated records from the 'Set' table...
+2023-07-13 23:34:56.165 +07:00 [VRB] Outdated records removed from the 'Set' table.
+2023-07-13 23:34:56.167 +07:00 [DBG] Removing outdated records from the 'Hash' table...
+2023-07-13 23:34:56.205 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:34:56.208 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:34:58.198 +07:00 [VRB] Outdated records removed from the 'Hash' table.
+2023-07-13 23:35:01.344 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:35:01.366 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:01.485 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:01.468 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:35:06.489 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:06.491 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:11.506 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:11.508 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:16.520 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:16.522 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:21.530 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:21.534 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:26.548 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:26.550 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:31.557 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:31.559 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:32.529 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:35:32.530 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:35:36.576 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:36.578 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:41.588 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:41.592 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:46.601 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:46.603 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:51.615 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:51.617 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:35:56.628 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:35:56.632 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:01.639 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:01.640 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:02.811 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:36:02.818 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:36:06.657 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:06.659 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:11.674 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:11.676 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:16.687 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:16.693 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:21.709 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:21.711 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:26.726 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:26.730 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:31.743 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:31.747 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:33.081 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:36:33.085 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:36:36.947 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:37.028 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:42.036 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:42.038 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:45.902 +07:00 [DBG] Connection id "0HMS3NS3S1QCH" is closing.
+2023-07-13 23:36:45.904 +07:00 [DBG] Connection id "0HMS3NS3S1QCH" is closed. The last processed stream ID was 15.
+2023-07-13 23:36:45.906 +07:00 [VRB] Connection id "0HMS3NS3S1QCH" sending "GOAWAY" frame for stream ID 0 with length 8 and flags 0x0.
+2023-07-13 23:36:45.910 +07:00 [DBG] Connection id "0HMS3NS3S1QCH" received FIN.
+2023-07-13 23:36:45.916 +07:00 [DBG] Connection id "0HMS3NS3S1QCH" sending FIN because: "The client closed the connection."
+2023-07-13 23:36:45.918 +07:00 [DBG] The connection queue processing loop for 0HMS3NS3S1QCH completed.
+2023-07-13 23:36:45.923 +07:00 [DBG] Connection id "0HMS3NS3S1QCH" stopped.
+2023-07-13 23:36:47.048 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:47.051 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:52.058 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:52.060 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:36:57.062 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:36:57.064 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:02.074 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:02.080 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:03.393 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:37:03.395 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:37:07.093 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:07.095 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:12.109 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:12.110 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:17.121 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:17.123 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:22.133 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:22.135 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:27.147 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:27.148 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:32.159 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:32.161 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:33.980 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:37:33.983 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:37:37.176 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:37.178 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:42.179 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:42.181 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:47.197 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:47.199 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:52.214 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:52.216 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:37:57.220 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:37:57.221 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:02.236 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:02.238 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:04.366 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:38:04.440 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:38:07.249 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:07.252 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:09.418 +07:00 [DBG] Connection id "0HMS3NS3S1QCI" accepted.
+2023-07-13 23:38:09.420 +07:00 [DBG] Connection id "0HMS3NS3S1QCI" started.
+2023-07-13 23:38:09.426 +07:00 [DBG] Connection 0HMS3NS3S1QCI established using the following protocol: "Tls13"
+2023-07-13 23:38:09.435 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2023-07-13 23:38:09.438 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-07-13 23:38:09.441 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "SETTINGS" frame for stream ID 0 with length 30 and flags "NONE".
+2023-07-13 23:38:09.451 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2023-07-13 23:38:09.455 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-07-13 23:38:09.458 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "HEADERS" frame for stream ID 1 with length 597 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:38:09.468 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2023-07-13 23:38:09.469 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dependent/GetListDependantByUser?userId=05f81a29-1a2c-4820-9755-a3b8b4b132ca&pg=1 - -
+2023-07-13 23:38:09.475 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:38:09.477 +07:00 [DBG] The request path /Dependent/GetListDependantByUser does not match a supported file type
+2023-07-13 23:38:09.479 +07:00 [DBG] The request path  does not match the path filter
+2023-07-13 23:38:09.598 +07:00 [DBG] 1 candidate(s) found for the request path '/Dependent/GetListDependantByUser'
+2023-07-13 23:38:09.604 +07:00 [DBG] Endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)' with route pattern 'Dependent/GetListDependantByUser' is valid for the request path '/Dependent/GetListDependantByUser'
+2023-07-13 23:38:09.607 +07:00 [DBG] Request matched endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)'
+2023-07-13 23:38:09.624 +07:00 [VRB] Performing protect operation to key {bba16f3b-d02f-4c50-8e83-b4cc0ae7d545} with purposes ('D:\workSpace\Ki7\SWD392\LogOT\src\WebUI\', 'SessionMiddleware').
+2023-07-13 23:38:10.913 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-13 23:38:10.933 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2023-07-13 23:38:10.941 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-13 23:38:10.944 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "HEADERS" frame for stream ID 1 with length 57 and flags "END_STREAM, END_HEADERS".
+2023-07-13 23:38:10.944 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dependent/GetListDependantByUser?userId=05f81a29-1a2c-4820-9755-a3b8b4b132ca&pg=1 - - - 401 0 - 1475.0580ms
+2023-07-13 23:38:12.260 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:12.261 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:17.275 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:17.276 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:22.281 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:22.282 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:27.285 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:27.287 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:32.294 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:32.295 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:35.185 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:38:35.186 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:38:37.302 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:37.304 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:40.085 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "HEADERS" frame for stream ID 3 with length 617 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:38:40.089 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2023-07-13 23:38:40.090 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dependent/GetListDependantByUser?userId=05f81a29-1a2c-4820-9755-a3b8b4b132ca&pg=1 - -
+2023-07-13 23:38:40.092 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2023-07-13 23:38:40.093 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:38:40.097 +07:00 [DBG] The request path /Dependent/GetListDependantByUser does not match a supported file type
+2023-07-13 23:38:40.100 +07:00 [DBG] The request path  does not match the path filter
+2023-07-13 23:38:40.123 +07:00 [DBG] 1 candidate(s) found for the request path '/Dependent/GetListDependantByUser'
+2023-07-13 23:38:40.164 +07:00 [DBG] Endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)' with route pattern 'Dependent/GetListDependantByUser' is valid for the request path '/Dependent/GetListDependantByUser'
+2023-07-13 23:38:40.168 +07:00 [DBG] Request matched endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)'
+2023-07-13 23:38:40.181 +07:00 [VRB] Performing protect operation to key {bba16f3b-d02f-4c50-8e83-b4cc0ae7d545} with purposes ('D:\workSpace\Ki7\SWD392\LogOT\src\WebUI\', 'SessionMiddleware').
+2023-07-13 23:38:40.719 +07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '7/9/2023 1:56:01 PM', Current time: '7/13/2023 4:38:40 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-07-13 23:38:40.726 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '7/9/2023 1:56:01 PM', Current time: '7/13/2023 4:38:40 PM'.
+2023-07-13 23:38:40.731 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2023-07-13 23:38:40.734 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-13 23:38:40.736 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "HEADERS" frame for stream ID 3 with length 131 and flags "END_STREAM, END_HEADERS".
+2023-07-13 23:38:40.736 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dependent/GetListDependantByUser?userId=05f81a29-1a2c-4820-9755-a3b8b4b132ca&pg=1 - - - 401 0 - 646.6274ms
+2023-07-13 23:38:42.311 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:42.313 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:47.329 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:47.330 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:52.336 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:52.336 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:38:53.336 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "HEADERS" frame for stream ID 5 with length 616 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:38:53.340 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2023-07-13 23:38:53.340 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dependent/GetListDependantByUser?userId=05f81a29-1a2c-4820-9755-a3b8b4b132ca&pg=1 - -
+2023-07-13 23:38:53.343 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2023-07-13 23:38:53.350 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:38:53.354 +07:00 [DBG] The request path /Dependent/GetListDependantByUser does not match a supported file type
+2023-07-13 23:38:53.356 +07:00 [DBG] The request path  does not match the path filter
+2023-07-13 23:38:53.357 +07:00 [DBG] 1 candidate(s) found for the request path '/Dependent/GetListDependantByUser'
+2023-07-13 23:38:53.360 +07:00 [DBG] Endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)' with route pattern 'Dependent/GetListDependantByUser' is valid for the request path '/Dependent/GetListDependantByUser'
+2023-07-13 23:38:53.363 +07:00 [DBG] Request matched endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)'
+2023-07-13 23:38:53.365 +07:00 [VRB] Performing protect operation to key {bba16f3b-d02f-4c50-8e83-b4cc0ae7d545} with purposes ('D:\workSpace\Ki7\SWD392\LogOT\src\WebUI\', 'SessionMiddleware').
+2023-07-13 23:38:53.384 +07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '7/9/2023 1:56:01 PM', Current time: '7/13/2023 4:38:53 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-07-13 23:38:53.437 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '7/9/2023 1:56:01 PM', Current time: '7/13/2023 4:38:53 PM'.
+2023-07-13 23:38:53.440 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2023-07-13 23:38:53.442 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-13 23:38:53.444 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dependent/GetListDependantByUser?userId=05f81a29-1a2c-4820-9755-a3b8b4b132ca&pg=1 - - - 401 0 - 104.3520ms
+2023-07-13 23:38:53.444 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "HEADERS" frame for stream ID 5 with length 38 and flags "END_STREAM, END_HEADERS".
+2023-07-13 23:38:57.346 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:38:57.348 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:02.350 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:02.352 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:05.471 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:39:05.473 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:39:07.367 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:07.369 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:12.376 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:12.377 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:17.389 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:17.391 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:22.395 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:22.397 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:27.405 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:27.407 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:32.420 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:32.422 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:35.710 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:39:35.712 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:39:37.423 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:37.424 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:42.428 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:42.431 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:43.254 +07:00 [DBG] Aggregating records in 'Counter' table...
+2023-07-13 23:39:43.480 +07:00 [VRB] Records from the 'Counter' table aggregated.
+2023-07-13 23:39:47.434 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:47.436 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:52.448 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:52.449 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:57.463 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:39:57.464 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:39:59.320 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "HEADERS" frame for stream ID 7 with length 616 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-07-13 23:39:59.324 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2023-07-13 23:39:59.324 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dependent/GetListDependantByUser?userId=05f81a29-1a2c-4820-9755-a3b8b4b132ca&pg=1 - -
+2023-07-13 23:39:59.328 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2023-07-13 23:39:59.329 +07:00 [VRB] All hosts are allowed.
+2023-07-13 23:39:59.335 +07:00 [DBG] The request path /Dependent/GetListDependantByUser does not match a supported file type
+2023-07-13 23:39:59.338 +07:00 [DBG] The request path  does not match the path filter
+2023-07-13 23:39:59.341 +07:00 [DBG] 1 candidate(s) found for the request path '/Dependent/GetListDependantByUser'
+2023-07-13 23:39:59.343 +07:00 [DBG] Endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)' with route pattern 'Dependent/GetListDependantByUser' is valid for the request path '/Dependent/GetListDependantByUser'
+2023-07-13 23:39:59.345 +07:00 [DBG] Request matched endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)'
+2023-07-13 23:39:59.348 +07:00 [VRB] Performing protect operation to key {bba16f3b-d02f-4c50-8e83-b4cc0ae7d545} with purposes ('D:\workSpace\Ki7\SWD392\LogOT\src\WebUI\', 'SessionMiddleware').
+2023-07-13 23:39:59.384 +07:00 [DBG] Successfully validated the token.
+2023-07-13 23:39:59.388 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-07-13 23:39:59.391 +07:00 [DBG] Authorization was successful.
+2023-07-13 23:39:59.393 +07:00 [INF] Executing endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)'
+2023-07-13 23:39:59.431 +07:00 [INF] Route matched with {action = "GetListDependantByUser", controller = "Dependent", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListDependantByUser(System.String, Int32) on controller WebUI.Controllers.DependentController (WebUI).
+2023-07-13 23:39:59.438 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-13 23:39:59.441 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-07-13 23:39:59.444 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-13 23:39:59.447 +07:00 [DBG] Execution plan of exception filters (in the following order): ["WebUI.Filters.ApiExceptionFilterAttribute (Order: 0)"]
+2023-07-13 23:39:59.450 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-13 23:39:59.455 +07:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-07-13 23:39:59.460 +07:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-07-13 23:39:59.464 +07:00 [DBG] Executing controller factory for controller WebUI.Controllers.DependentController (WebUI)
+2023-07-13 23:39:59.479 +07:00 [DBG] Executed controller factory for controller WebUI.Controllers.DependentController (WebUI)
+2023-07-13 23:39:59.497 +07:00 [DBG] Attempting to bind parameter 'userId' of type 'System.String' ...
+2023-07-13 23:39:59.501 +07:00 [DBG] Attempting to bind parameter 'userId' of type 'System.String' using the name 'userId' in request data ...
+2023-07-13 23:39:59.507 +07:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.String'.
+2023-07-13 23:39:59.509 +07:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.String'.
+2023-07-13 23:39:59.511 +07:00 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.String' ...
+2023-07-13 23:39:59.522 +07:00 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.String'.
+2023-07-13 23:39:59.526 +07:00 [DBG] Attempting to bind parameter 'pg' of type 'System.Int32' ...
+2023-07-13 23:39:59.528 +07:00 [DBG] Attempting to bind parameter 'pg' of type 'System.Int32' using the name 'pg' in request data ...
+2023-07-13 23:39:59.531 +07:00 [DBG] Done attempting to bind parameter 'pg' of type 'System.Int32'.
+2023-07-13 23:39:59.533 +07:00 [DBG] Done attempting to bind parameter 'pg' of type 'System.Int32'.
+2023-07-13 23:39:59.535 +07:00 [DBG] Attempting to validate the bound parameter 'pg' of type 'System.Int32' ...
+2023-07-13 23:39:59.541 +07:00 [DBG] Done attempting to validate the bound parameter 'pg' of type 'System.Int32'.
+2023-07-13 23:39:59.544 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-07-13 23:39:59.546 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-07-13 23:39:59.548 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-07-13 23:39:59.551 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-07-13 23:39:59.560 +07:00 [INF] Executing action method WebUI.Controllers.DependentController.GetListDependantByUser (WebUI) - Validation state: "Valid"
+2023-07-13 23:39:59.562 +07:00 [VRB] Executing action method WebUI.Controllers.DependentController.GetListDependantByUser (WebUI) with arguments (["05f81a29-1a2c-4820-9755-a3b8b4b132ca","1"])
+2023-07-13 23:39:59.588 +07:00 [INF] mentor_v1 Request: GetDependantByUserId  manager@localhost {"Page":1,"Size":20,"userId":"05f81a29-1a2c-4820-9755-a3b8b4b132ca","$type":"GetDependantByUserId"}
+2023-07-13 23:39:59.826 +07:00 [DBG] Entity Framework Core 7.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: MigrationsAssembly=mentor_v1.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-13 23:39:59.880 +07:00 [DBG] Compiling query expression: 
+'DbSet<Dependent>()
+    .Where(x => x.IsDeleted == False && x.ApplicationUserId.ToLower().Equals(__ToLower_0))
+    .Include(x => x.ApplicationUser)
+    .OrderByDescending(x => x.Created)
+    .AsNoTracking()
+    .Select(dtoDependent => new GetDependentViewModel{ 
+        Id = dtoDependent.Id, 
+        ApplicationUserId = dtoDependent.ApplicationUserId, 
+        Name = dtoDependent.Name, 
+        BirthDate = dtoDependent.BirthDate, 
+        Desciption = dtoDependent.Desciption, 
+        Relationship = dtoDependent.Relationship, 
+        AcceptanceType = dtoDependent.AcceptanceType.ToString() 
+    }
+    )
+    .Count()'
+2023-07-13 23:39:59.972 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM Dependents AS d
+        WHERE (d.IsDeleted == CAST(0 AS bit)) && (LOWER(d.ApplicationUserId) == @__ToLower_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    mentor_v1.Infrastructure.Persistence.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2023-07-13 23:39:59.987 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-13 23:39:59.989 +07:00 [DBG] Creating DbConnection.
+2023-07-13 23:39:59.991 +07:00 [DBG] Created DbConnection. (1ms).
+2023-07-13 23:39:59.992 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2023-07-13 23:39:59.994 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2023-07-13 23:39:59.996 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:39:59.999 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:40:00.001 +07:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Dependents] AS [d]
+WHERE [d].[IsDeleted] = CAST(0 AS bit) AND LOWER([d].[ApplicationUserId]) = @__ToLower_0
+2023-07-13 23:40:00.035 +07:00 [INF] Executed DbCommand (34ms) [Parameters=[@__ToLower_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Dependents] AS [d]
+WHERE [d].[IsDeleted] = CAST(0 AS bit) AND LOWER([d].[ApplicationUserId]) = @__ToLower_0
+2023-07-13 23:40:00.042 +07:00 [DBG] Closing data reader to 'HRM' on server '(local)'.
+2023-07-13 23:40:00.045 +07:00 [DBG] A data reader for 'HRM' on server '(local)' is being disposed after spending 3ms reading results.
+2023-07-13 23:40:00.047 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:40:00.051 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (3ms).
+2023-07-13 23:40:00.068 +07:00 [DBG] Compiling query expression: 
+'DbSet<Dependent>()
+    .Where(x => x.IsDeleted == False && x.ApplicationUserId.ToLower().Equals(__ToLower_0))
+    .Include(x => x.ApplicationUser)
+    .OrderByDescending(x => x.Created)
+    .AsNoTracking()
+    .Select(dtoDependent => new GetDependentViewModel{ 
+        Id = dtoDependent.Id, 
+        ApplicationUserId = dtoDependent.ApplicationUserId, 
+        Name = dtoDependent.Name, 
+        BirthDate = dtoDependent.BirthDate, 
+        Desciption = dtoDependent.Desciption, 
+        Relationship = dtoDependent.Relationship, 
+        AcceptanceType = dtoDependent.AcceptanceType.ToString() 
+    }
+    )
+    .Skip(__p_1)
+    .Take(__p_2)'
+2023-07-13 23:40:00.113 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<GetDependentViewModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> 0
+            1 -> 1
+            2 -> 2
+            3 -> 3
+            4 -> 4
+            5 -> 5
+            6 -> 6
+        SELECT d.Id, d.ApplicationUserId, d.Name, d.BirthDate, d.Desciption, d.Relationship, d.AcceptanceType
+        FROM Dependents AS d
+        WHERE (d.IsDeleted == CAST(0 AS bit)) && (LOWER(d.ApplicationUserId) == @__ToLower_0)
+        ORDER BY d.Created DESC
+        OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, GetDependentViewModel>, 
+    mentor_v1.Infrastructure.Persistence.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-07-13 23:40:00.130 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-13 23:40:00.133 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-13 23:40:00.135 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2023-07-13 23:40:00.138 +07:00 [DBG] Opening connection to database 'HRM' on server '(local)'.
+2023-07-13 23:40:00.141 +07:00 [DBG] Opened connection to database 'HRM' on server '(local)'.
+2023-07-13 23:40:00.143 +07:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 450), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[ApplicationUserId], [d].[Name], [d].[BirthDate], [d].[Desciption], [d].[Relationship], [d].[AcceptanceType]
+FROM [Dependents] AS [d]
+WHERE [d].[IsDeleted] = CAST(0 AS bit) AND LOWER([d].[ApplicationUserId]) = @__ToLower_0
+ORDER BY [d].[Created] DESC
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-13 23:40:00.159 +07:00 [INF] Executed DbCommand (15ms) [Parameters=[@__ToLower_0='?' (Size = 450), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[ApplicationUserId], [d].[Name], [d].[BirthDate], [d].[Desciption], [d].[Relationship], [d].[AcceptanceType]
+FROM [Dependents] AS [d]
+WHERE [d].[IsDeleted] = CAST(0 AS bit) AND LOWER([d].[ApplicationUserId]) = @__ToLower_0
+ORDER BY [d].[Created] DESC
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-13 23:40:00.167 +07:00 [DBG] Closing data reader to 'HRM' on server '(local)'.
+2023-07-13 23:40:00.172 +07:00 [DBG] A data reader for 'HRM' on server '(local)' is being disposed after spending 9ms reading results.
+2023-07-13 23:40:00.175 +07:00 [DBG] Closing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:40:00.178 +07:00 [DBG] Closed connection to database 'HRM' on server '(local)' (2ms).
+2023-07-13 23:40:00.182 +07:00 [WRN] mentor_v1 Long Running Request: GetDependantByUserId (560 milliseconds)  manager@localhost {"Page":1,"Size":20,"userId":"05f81a29-1a2c-4820-9755-a3b8b4b132ca","$type":"GetDependantByUserId"}
+2023-07-13 23:40:00.200 +07:00 [INF] Executed action method WebUI.Controllers.DependentController.GetListDependantByUser (WebUI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 629.5867ms.
+2023-07-13 23:40:00.205 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-07-13 23:40:00.209 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-07-13 23:40:00.212 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-07-13 23:40:00.215 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-07-13 23:40:00.218 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-07-13 23:40:00.222 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-07-13 23:40:00.225 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-07-13 23:40:00.228 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-07-13 23:40:00.231 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-07-13 23:40:00.234 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-13 23:40:00.244 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-07-13 23:40:00.248 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-13 23:40:00.250 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[mentor_v1.Application.Common.Models.PaginatedList`1[[mentor_v1.Application.Dependent.Queries.GetDependentViewModel, mentor_v1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mentor_v1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-13 23:40:00.289 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-07-13 23:40:00.289 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "HEADERS" frame for stream ID 7 with length 66 and flags "END_HEADERS".
+2023-07-13 23:40:00.291 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-07-13 23:40:00.294 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "DATA" frame for stream ID 7 with length 169 and flags "NONE".
+2023-07-13 23:40:00.297 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-07-13 23:40:00.303 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-07-13 23:40:00.303 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-07-13 23:40:00.307 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-07-13 23:40:00.314 +07:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-07-13 23:40:00.316 +07:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-07-13 23:40:00.327 +07:00 [INF] Executed action WebUI.Controllers.DependentController.GetListDependantByUser (WebUI) in 866.825ms
+2023-07-13 23:40:00.330 +07:00 [INF] Executed endpoint 'WebUI.Controllers.DependentController.GetListDependantByUser (WebUI)'
+2023-07-13 23:40:00.334 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2023-07-13 23:40:00.335 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2023-07-13 23:40:00.345 +07:00 [DBG] Disposing connection to database 'HRM' on server '(local)'.
+2023-07-13 23:40:00.349 +07:00 [DBG] Disposed connection to database '' on server '' (4ms).
+2023-07-13 23:40:00.353 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dependent/GetListDependantByUser?userId=05f81a29-1a2c-4820-9755-a3b8b4b132ca&pg=1 - - - 200 - application/json;+charset=utf-8 1028.5562ms
+2023-07-13 23:40:02.475 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:02.476 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:05.946 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:40:05.948 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:40:07.486 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:07.487 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:12.497 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:12.498 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:17.505 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:17.529 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:22.543 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:22.546 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:27.550 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:27.552 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:32.564 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:32.566 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:36.173 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:40:36.175 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:40:37.575 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:37.576 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:42.585 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:42.587 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:47.598 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:47.600 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:52.608 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:52.610 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:40:57.627 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:40:57.628 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:02.633 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:02.635 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:06.405 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:41:06.407 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:41:07.647 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:07.649 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:12.681 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:12.688 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:17.694 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:17.697 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:22.770 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:22.779 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:27.792 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:27.794 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:32.807 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:32.811 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:36.652 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:41:36.653 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:41:37.813 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:37.815 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:42.822 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:42.829 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:47.834 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:47.837 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:52.846 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:52.849 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:41:57.855 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:41:57.857 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:02.871 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:02.873 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:06.979 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:42:07.045 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:42:07.877 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:07.878 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:12.205 +07:00 [DBG] Connection id "0HMS3NS3S1QCI" is closing.
+2023-07-13 23:42:12.208 +07:00 [DBG] Connection id "0HMS3NS3S1QCI" is closed. The last processed stream ID was 7.
+2023-07-13 23:42:12.210 +07:00 [VRB] Connection id "0HMS3NS3S1QCI" sending "GOAWAY" frame for stream ID 0 with length 8 and flags 0x0.
+2023-07-13 23:42:12.215 +07:00 [DBG] The connection queue processing loop for 0HMS3NS3S1QCI completed.
+2023-07-13 23:42:12.215 +07:00 [DBG] Connection id "0HMS3NS3S1QCI" received FIN.
+2023-07-13 23:42:12.217 +07:00 [DBG] Connection id "0HMS3NS3S1QCI" stopped.
+2023-07-13 23:42:12.221 +07:00 [DBG] Connection id "0HMS3NS3S1QCI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-13 23:42:12.885 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:12.893 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:17.909 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:17.911 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:22.916 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:22.918 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:27.926 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:27.928 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:32.939 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:32.941 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:37.277 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:42:37.278 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:42:37.957 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:37.959 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:42.974 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:42.976 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:47.991 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:47.992 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:53.001 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:53.003 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:42:58.070 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:42:58.518 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:03.530 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:03.532 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:07.985 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:43:07.987 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:43:08.534 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:08.542 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:13.582 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:13.641 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:18.648 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:18.650 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:23.653 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:23.655 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:28.663 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:28.665 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:33.674 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:33.677 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:38.220 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:43:38.222 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:43:38.683 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:38.687 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:43.706 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:43.711 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:48.717 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:48.718 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:53.734 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:53.736 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:43:58.744 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:43:58.745 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:03.753 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:03.758 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:08.480 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:44:08.482 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:44:08.767 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:08.772 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:13.786 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:13.789 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:18.796 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:18.798 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:23.809 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:23.811 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:28.828 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:28.829 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:33.852 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:33.889 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:38.715 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:44:38.717 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:44:38.902 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:38.903 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:43.493 +07:00 [DBG] Aggregating records in 'Counter' table...
+2023-07-13 23:44:43.911 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:43.912 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:44.191 +07:00 [VRB] Records from the 'Counter' table aggregated.
+2023-07-13 23:44:48.918 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:48.920 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:53.926 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:53.928 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:44:58.941 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:44:58.943 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:03.959 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:03.961 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:08.965 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:45:08.967 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:08.969 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:08.967 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:45:13.975 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:13.977 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:18.984 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:18.985 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:24.001 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:24.003 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:29.014 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:29.016 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:34.029 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:34.031 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:39.048 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:39.050 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:39.212 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:45:39.213 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:45:44.057 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:44.059 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:49.070 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:49.072 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:54.081 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:54.082 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:45:59.091 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:45:59.093 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:04.097 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:04.099 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:09.108 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:09.109 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:09.458 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:46:09.460 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:46:14.126 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:14.127 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:19.136 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:19.138 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:24.141 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:24.143 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:29.151 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:29.152 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:34.157 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:34.159 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:39.166 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:39.168 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:39.704 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:46:39.706 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:46:44.172 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:44.175 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:49.183 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:49.185 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:54.200 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:54.202 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:46:59.217 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:46:59.220 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:04.231 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:04.233 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:09.239 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:09.241 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:09.941 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:47:09.942 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:47:14.251 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:14.253 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:19.262 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:19.264 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:24.277 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:24.278 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:29.281 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:29.283 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:34.297 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:34.299 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:39.309 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:39.311 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:40.163 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:47:40.165 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:47:44.320 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:44.322 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:49.326 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:49.328 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:54.345 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:54.346 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:47:59.363 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:47:59.364 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:04.367 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:04.369 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:09.373 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:09.374 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:10.443 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:48:10.682 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:48:14.381 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:14.383 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:19.386 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:19.388 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:24.397 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:24.399 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:29.411 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:29.412 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:34.417 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:34.419 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:39.433 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:39.435 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:40.916 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:48:40.918 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:48:44.443 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:44.444 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:49.456 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:49.458 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:54.463 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:54.465 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:48:59.474 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:48:59.476 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:04.485 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:04.487 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:09.498 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:09.500 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:11.156 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:49:11.157 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:49:14.503 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:14.504 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:19.518 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:19.520 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:24.530 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:24.532 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:29.537 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:29.539 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:34.547 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:34.549 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:39.565 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:39.567 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:41.396 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:49:41.397 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:49:44.208 +07:00 [DBG] Aggregating records in 'Counter' table...
+2023-07-13 23:49:44.439 +07:00 [VRB] Records from the 'Counter' table aggregated.
+2023-07-13 23:49:44.582 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:44.583 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:49.597 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:49.599 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:54.615 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:54.617 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:49:59.620 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:49:59.622 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:04.629 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:04.631 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:09.643 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:09.645 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:11.620 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:50:11.621 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:50:14.657 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:14.659 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:19.664 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:19.666 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:24.682 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:24.683 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:29.687 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:29.688 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:34.690 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:34.692 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:39.700 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:39.701 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:41.866 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:50:41.868 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:50:44.715 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:44.717 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:49.730 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:49.731 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:54.739 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:54.741 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:50:59.756 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:50:59.758 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:04.775 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:04.777 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:09.782 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:09.784 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:12.098 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:51:12.100 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:51:14.816 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:14.853 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:19.870 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:19.872 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:24.885 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:24.887 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:29.901 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:29.903 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:34.905 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:34.907 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:39.922 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:39.924 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:42.326 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:51:42.328 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:51:44.938 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:44.940 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:49.950 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:49.951 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:54.959 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:54.961 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:51:59.973 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:51:59.976 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:04.989 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:04.990 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:10.005 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:10.006 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:12.553 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:52:12.555 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:52:15.017 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:15.019 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:20.024 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:20.025 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:25.027 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:25.029 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:30.044 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:30.046 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:35.056 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:35.058 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:40.067 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:40.069 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:42.779 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:52:42.781 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:52:45.075 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:45.077 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:50.087 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:50.089 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:52:55.103 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:52:55.105 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:00.115 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:00.117 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:05.123 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:05.125 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:10.130 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:10.132 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:13.001 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:53:13.003 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:53:15.149 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:15.150 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:20.159 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:20.161 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:25.174 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:25.176 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:30.190 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:30.192 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:35.201 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:35.203 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:40.211 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:40.214 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:43.231 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:53:43.233 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:53:45.227 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:45.228 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:50.243 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:50.244 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:53:55.252 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:53:55.254 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:00.271 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:00.273 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:05.285 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:05.287 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:10.300 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:10.302 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:13.466 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:54:13.468 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:54:15.308 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:15.315 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:20.343 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:20.398 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:25.410 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:25.412 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:30.424 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:30.426 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:35.440 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:35.442 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:40.459 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:40.462 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:43.707 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:54:43.710 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:54:44.449 +07:00 [DBG] Aggregating records in 'Counter' table...
+2023-07-13 23:54:44.679 +07:00 [VRB] Records from the 'Counter' table aggregated.
+2023-07-13 23:54:45.464 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:45.466 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:50.471 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:50.473 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:54:55.486 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:54:55.488 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:00.494 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:00.496 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:05.509 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:05.511 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:10.516 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:10.518 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:13.933 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:55:13.934 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:55:15.526 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:15.527 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:20.537 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:20.539 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:25.541 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:25.543 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:30.562 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:30.601 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:35.663 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:35.664 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:40.673 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:40.678 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:44.166 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:55:44.168 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:55:45.686 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:45.687 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:50.704 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:50.706 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:55:55.715 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:55:55.717 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:00.721 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:00.724 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:05.734 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:05.736 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:10.796 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:10.798 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:14.395 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:56:14.398 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:56:15.814 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:15.815 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:20.827 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:20.828 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:25.844 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:25.846 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:30.852 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:30.853 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:35.864 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:35.867 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:40.881 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:40.883 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:44.629 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:56:44.631 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:56:45.890 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:45.892 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:50.895 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:50.897 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:56:55.905 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:56:55.907 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:00.922 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:00.925 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:05.933 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:05.935 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:10.949 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:10.951 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:14.862 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:57:14.863 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:57:15.956 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:15.958 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:20.961 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:20.965 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:25.982 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:25.984 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:30.990 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:30.992 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:36.000 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:36.002 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:41.017 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:41.019 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:45.096 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:57:45.098 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:57:46.036 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:46.038 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:51.048 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:51.049 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:57:56.057 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:57:56.059 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:01.074 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:01.075 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:06.085 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:06.088 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:11.104 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:11.106 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:15.340 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:58:15.342 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:58:16.109 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:16.113 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:21.127 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:21.129 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:26.132 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:26.146 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:31.227 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:31.229 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:36.238 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:36.241 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:41.251 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:41.253 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:45.611 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:58:45.616 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:58:46.266 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:46.267 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:51.276 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:51.278 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:58:56.290 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:58:56.291 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:01.304 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:01.306 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:06.318 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:06.319 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:11.327 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:11.329 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:15.840 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:59:15.842 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:59:16.336 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:16.338 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:21.342 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:21.344 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:26.360 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:26.468 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:31.470 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:31.471 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:36.486 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:36.488 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:41.491 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:41.493 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:44.687 +07:00 [DBG] Aggregating records in 'Counter' table...
+2023-07-13 23:59:44.911 +07:00 [VRB] Records from the 'Counter' table aggregated.
+2023-07-13 23:59:46.073 +07:00 [DBG] Server desktop-fco8jeh:11416:7e098533 heartbeat successfully sent
+2023-07-13 23:59:46.076 +07:00 [VRB] Server desktop-fco8jeh:11416:7e098533 waiting for 00:00:30 delay before sending a heartbeat
+2023-07-13 23:59:46.507 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:46.509 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:51.520 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:51.521 +07:00 [VRB] No newly aborted jobs found.
+2023-07-13 23:59:56.538 +07:00 [VRB] Checking for aborted jobs...
+2023-07-13 23:59:56.541 +07:00 [VRB] No newly aborted jobs found.

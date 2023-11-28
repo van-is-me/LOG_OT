@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cccbcb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b6b5b5;
+}
+
+
+/* theme for table */
+.dark-theme {
+  /* header */
+  --easy-table-header-font-color: #fff;
+  --easy-table-header-background-color: #1a1d21;
+
+  /* body */
+  --easy-table-body-row-background-color: #1a1d21;
+  --easy-table-body-row-font-color: #fff;
+
+  /* footer */
+  --easy-table-footer-background-color: #1a1d21;
+  --easy-table-footer-font-color: #fff;
+
+  /*font-size table  */
+  --easy-table-header-font-size: 16px;
+  --easy-table-body-row-font-size: 16px;
+
+  /* line-height-table */
+  --easy-table-header-height: 30px;
+  --easy-table-body-row-height: 30px;
+
+  --easy-table-rows-per-page-selector-z-index: 1;
+}
+
+.light-theme {
+  /* header */
+  --easy-table-header-font-color: #000;
+  --easy-table-header-background-color: #fff;
+
+  /* body */
+  --easy-table-body-row-background-color: #fff;
+  --easy-table-body-row-font-color: #000;
+
+  /* footer */
+  --easy-table-footer-background-color: #fff;
+  --easy-table-footer-font-color: #000;
+
+  /*font-size table  */
+  --easy-table-header-font-size: 16px;
+  --easy-table-body-row-font-size: 16px;
+
+  /* line-height-table */
+  --easy-table-header-height: 30px;
+  --easy-table-body-row-height: 30px;
+
+  --easy-table-rows-per-page-selector-z-index: 1;
+}
+
+
+.btn-primary {
+  background-color: #f87171;
+  border-radius: 20px;
+  padding: 4px 10px;
+  color: #fff;
+  border: 1px solid #f87171;
+  min-width: 50px;
+  margin: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #f87171;
+  transition: ease-in .2s;
+}
+
+.edit-btn {
+  background-color: #37b429;
+  border-radius: 20px;
+  padding: 4px 10px;
+  color: #fff;
+  border: 1px solid #37b429;
+  min-width: 50px;
+  margin: 10px;
+}
+
+.edit-btn:hover {
+  background-color: #fff;
+  color: #37b429;
+  transition: ease-in .2s;
+}
+
+.delete-btn {
+  background-color: red;
+  border-radius: 20px;
+  padding: 4px 10px;
+  color: #fff;
+  border: 1px solid red;
+  margin: 10px;
+  min-width: 50px;
+}
+
+.delete-btn:hover {
+  background-color: #fff;
+  color: red;
+  transition: ease-in .2s;
+}
+
+.danger-btn {
+  background-color: rgb(145, 0, 0);
+  border-radius: 20px;
+  padding: 4px 10px;
+  color: #fff;
+  border: 1px solid rgb(145, 0, 0);
+  margin: 10px;
+  min-width: 50px;
+}
+
+.danger-btn:hover {
+  background-color: #fff;
+  color: rgb(145, 0, 0);
+  transition: ease-in .2s;
+}
+
+.cancel-btn {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 4px 10px;
+  color: #000;
+  border: 1px solid rgb(193, 193, 193);
+  margin: 10px;
+  min-width: 50px;
+}
+
+.cancel-btn:hover {
+  background-color: rgb(193, 193, 193);
+  color: #fff;
+  transition: ease-in .2s;
+}
+
+.view-btn {
+  background-color: orangered;
+  border-radius: 20px;
+  padding: 4px 10px;
+  margin: 10px;
+  min-width: 50px;
+  color: #fff;
+  border: 1px solid orangered;
+}
+
+.view-btn:hover {
+  background-color: #fff;
+  color: orangered;
+  transition: ease-in .2s;
+}
+
+.wrapper-border-xl {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.search-cus {
+  background-color: #f5f2f2;
+  border-radius: 10px;
+  padding: 10px 20px;
+  outline: none;
+  color: #000;
+}
+
+.input-cus {
+  background-color: #dbdbdb;
+  border-radius: 10px;
+  padding: 10px 20px;
+  outline: none;
+  color: #000;
+  margin: 10px 0;
+  border: 1px solid transparent;
+}
+
+.select-cus {
+  background-color: #dbdbdb;
+  border-radius: 10px;
+  padding: 14px 20px;
+  outline: none;
+  color: #000;
+  margin: 10px 0;
+}
+
+
+
+.fog-l {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.box-input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 25px;
+}
